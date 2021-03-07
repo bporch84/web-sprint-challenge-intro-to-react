@@ -4,7 +4,13 @@ import styled from "styled-components"
 
 const StyledCharacters = styled.div`
     display: flex;
-    flex-direction:column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
 `
 
 const Characters = (props) => {

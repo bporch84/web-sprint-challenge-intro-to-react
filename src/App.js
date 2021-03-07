@@ -4,8 +4,9 @@ import Characters from "./components/Characters"
 import styled from "styled-components"
 
 const StyledApp = styled.div`
+text-align: center;
+
 h1 {
-  text-align: center;
   color: #FFE81F;
   font-size: 72px;
   font-family: monospace;
